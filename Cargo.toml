@@ -1,0 +1,11 @@
+[package]
+name = "yes-uring"
+version = "0.1.0"
+authors = ["tzaman"]
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.49", features = ["derive"] }
+io-uring = "0.7.10"
+libc = "0.2.177"
+num_cpus = "1.17.0"
